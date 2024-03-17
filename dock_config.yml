@@ -1,5 +1,5 @@
 
--- hosts: "Managed_Node1"
+- hosts: "Managed_Node1"
   tasks: 
    - name: Configuring Docker Repository
      yum_repository:
